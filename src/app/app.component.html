@@ -1,0 +1,27 @@
+<div class="cards-container">
+
+    <app-card 
+    class="app-card-orange"
+        [planType]="'Simples'"
+        [planPrice]="100"
+        [cardStyle]="'orange'"
+        (buttonClicked)="onCardButtonClicked()"
+    ></app-card>
+
+   <br />
+
+    <app-card 
+    class="app-card-purple"
+        [planType]="'Completo'"
+        [planPrice]="200"
+        [cardStyle]="'purple'"
+        (buttonClicked)="onCardButtonClicked()"
+        ></app-card>
+
+</div>
+
+
+
+
+
+
