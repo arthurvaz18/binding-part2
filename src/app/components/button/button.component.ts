@@ -22,5 +22,6 @@ export class ButtonComponent {
 
      onButtonClicked(){
       this.buttonClickedEmitt.emit();
+      //Apartir daqui
      }
 }
