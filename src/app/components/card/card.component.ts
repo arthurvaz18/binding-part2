@@ -23,6 +23,6 @@ export class CardComponent {
     
     onButtonClicked(){
       this.buttonClickedEmitt.emit();
-      //testes
+      //testes alinhados
     }
 }
